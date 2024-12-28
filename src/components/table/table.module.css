@@ -1,0 +1,21 @@
+/* table.module.css */
+.status-approved {
+    background-color: var(--success);
+    color: var(--text-contrast);
+  }
+  
+  .status-pending {
+    background-color: var(--warning);
+    color: var(--text);
+  }
+  
+  .status-rejected {
+    background-color: var(--error);
+    color: var(--text-contrast);
+  }
+  
+  /* Opcional: Añadir un padding para que las celdas sean más legibles */
+  td {
+    padding: 8px;
+  }
+  
